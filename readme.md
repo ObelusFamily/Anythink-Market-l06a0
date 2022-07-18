@@ -10,4 +10,18 @@ When implementing a new feature or fixing a bug, please create a new pull reques
 
 ## First setup
 
-**[TODO 05/01/2018 @vanessa-cooper]:** _It's been a while since anyone ran a fresh copy of this repo. I think it's worth documenting the steps needed to install and run the repo on a new machine?_
+1. Clone the git repository
+```{bash}
+git status
+``` 
+2. Install docker and docker-compose. Once they are installed, you should be able to check their version numbers like this.
+```{bash}
+$ docker -v
+```
+```{bash}
+$ docker-compose -v
+```
+3. Compose the docker container by running 
+```{bash}
+docker-compose up
+```
